@@ -70,19 +70,19 @@ nav ul li:hover {
 }
 
 
-@media (max-width:350px) {
+@media (max-width:260px) {
     
     header {
-        padding: 10px 20px ;
+        padding: 10px 10px ;
     }
 
     .logo {
-        gap: 10px;
+        gap: 5px;
     }
 
 
     .logo h1  {
-        font-size: 17px;
+        font-size: 12px;
     }
 
     nav ul {
@@ -90,13 +90,97 @@ nav ul li:hover {
     }
 
     nav li {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
-@media (min-width:306px) and (max-width:670px) {
-    
+
+@media (min-width:280px) and (max-width:320px) {
     header {
         padding: 10px 20px;
     }
+
+    .logo {
+        gap: 5px;
+    }
+    .logo h1 {
+        font-size: 15px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+    nav li {
+        font-size: 7px;
+    }
+}
+
+
+@media (min-width:321px) and (max-width:360px) {
+
+        header {
+                padding: 10px 20px;
+            }
+        
+            .logo {
+                gap: 5px;
+            }
+        
+            .logo h1 {
+                font-size: 15px;
+            }
+        
+            nav ul {
+                gap: 10px;
+            }
+        
+            nav li {
+                font-size: 10px;
+            }
+}
+
+@media (min-width:361px) and (max-width:500px) {
+
+        header {
+                padding: 10px 20px;
+            }
+        
+            .logo {
+                gap: 5px;
+            }
+        
+            .logo h1 {
+                font-size: 15px;
+            }
+        
+            nav ul {
+                gap: 10px;
+            }
+        
+            nav li {
+                font-size: 9px;
+            }
+}
+
+
+@media (min-width:501px) and (max-width:700px) {
+        header {
+                padding: 10px 20px;
+            }
+        
+            .logo {
+                gap: 5px;
+            }
+        
+            .logo h1 {
+                font-size: 15px;
+            }
+        
+            nav ul {
+                gap: 10px;
+            }
+        
+            nav li {
+                font-size: 10px;
+            }
 }
