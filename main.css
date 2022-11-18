@@ -1,0 +1,97 @@
+:root {
+    --Blue:#22D3EE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color: #1E293B;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+    height: 60px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: var(--Blue);
+}
+
+.logo i  {
+    font-size: 30px;
+    color: black;
+    color: var(--Blue);
+}
+
+.logo h1 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.16px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+nav li {
+    color: #F8FAFC;
+    font-weight: 700;
+    line-height: 21.13px;
+    border-bottom: 2px solid var(--Blue);
+}
+
+nav ul li:hover {
+        background-color: var(--Blue);
+        border: 2px solid #fff;
+        padding: 10px;
+        color: white;
+        transition-duration: 500ms;
+}
+
+
+@media (max-width:420px) {
+    
+    header {
+        padding: 10px 20px ;
+    }
+
+    .logo h1  {
+        font-size: 20px;
+    }
+
+    nav ul {
+        gap: 10px;
+    }
+
+    nav li {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:421px) and (max-width:750px) {
+    
+    header {
+        padding: 10px 20px;
+    }
+}
