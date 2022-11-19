@@ -263,7 +263,7 @@ main img {
 }
 
 
-@media (min-width:261px) and (max-width:350px) {
+@media (min-width:261px) and (max-width:360px) {
         main {
                 margin-top: 100px;
                 flex-direction: column-reverse;
@@ -279,7 +279,7 @@ main img {
             }
         
             .hero h2 {
-                font-size: 15px;
+                font-size: 20px;
                 margin-left: 90px;
             }
         
@@ -294,7 +294,7 @@ main img {
             }
 }
 
-@media (min-width:351px) and (max-width:500px) {
+@media (min-width:361px) and (max-width:500px) {
         main {
                 margin-top: 100px;
                 flex-direction: column-reverse;
